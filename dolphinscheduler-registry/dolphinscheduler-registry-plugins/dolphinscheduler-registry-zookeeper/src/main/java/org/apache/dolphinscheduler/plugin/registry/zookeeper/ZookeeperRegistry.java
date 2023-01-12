@@ -51,6 +51,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
+
 @Component
 @ConditionalOnProperty(prefix = "registry", name = "type", havingValue = "zookeeper")
 public final class ZookeeperRegistry implements Registry {
